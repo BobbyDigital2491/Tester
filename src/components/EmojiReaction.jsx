@@ -24,11 +24,7 @@ import IconButton from "../IconButton";
 import { useHLSViewerRole } from "./AppData/useUISettings";
 import { useDropdownList } from "./hooks/useDropdownList";
 import { useIsFeatureEnabled } from "./hooks/useFeatures";
-import {
-  EMOJI_REACTION_TYPE,
-  FEATURE_LIST,
-  HLS_TIMED_METADATA_DOC_URL,
-} from "../common/constants";
+import { EMOJI_REACTION_TYPE, FEATURE_LIST } from "../common/constants";
 
 init({ data });
 
@@ -43,7 +39,7 @@ const emojiReactionList = [
   ],
   [
     { emojiId: "tada" },
-    { emojiId: "heart_eyes" },
+    { emojiId: "gemstone" },
     { emojiId: "joy" },
     { emojiId: "open_mouth" },
     { emojiId: "sob" },
@@ -137,22 +133,6 @@ export const EmojiReaction = () => {
               }}
             >
               Reactions will be timed for Live Streaming viewers.{" "}
-            </Text>
-            <Text
-              variant="sm"
-              inline={true}
-              css={{
-                color: "$primaryLight",
-                fontWeight: "$semiBold",
-              }}
-            >
-              <a
-                href={HLS_TIMED_METADATA_DOC_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {"Learn more ->"}
-              </a>
             </Text>
           </div>
         </Dropdown.Content>

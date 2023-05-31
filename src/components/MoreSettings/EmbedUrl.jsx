@@ -45,7 +45,7 @@ export function EmbedUrlModal({ onOpenChange }) {
           title="URL"
           value={url}
           onChange={setUrl}
-          placeholder="https://www.tldraw.com/"
+          placeholder="https://www.viccci.xyz/"
           type="url"
         />
         <DialogRow>

@@ -61,10 +61,10 @@ export const Logo = () => {
       src={
         logo ||
         (themeType === "dark"
-          ? require("../../images/logo-light.svg")
-          : require("../../images/logo-dark.svg"))
+          ? require("../../images/viccci.png")
+          : require("../../images/viccci.png"))
       }
-      alt="Brand Logo"
+      alt="VCP Logo"
       width={132}
       height={40}
     />

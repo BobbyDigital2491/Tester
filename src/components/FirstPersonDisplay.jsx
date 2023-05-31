@@ -34,22 +34,45 @@ export const FirstPersonDisplay = React.memo(() => {
           textAlign: "center",
         }}
       >
-        <Text color="white" variant="h4" css={{ "@md": { fontSize: "$md" } }}>
-          Welcome!
-        </Text>
+        <ul>
+          <Text color="white" variant="h4" css={{ "@md": { fontSize: "$md" } }}>
+            Welcome to the Web 3 Factory
+          </Text>
+        </ul>
         <Text
           color="white"
           variant="h6"
           css={{ mt: "$4", "@md": { fontSize: "$sm" } }}
         >
-          You’re the first one here.
+          - Be proffessional
         </Text>
         <Text
           color="white"
           variant="h6"
           css={{ mt: "$2", "@md": { fontSize: "$sm" } }}
         >
-          Sit back and relax till the others join.
+          - Mute when not speaking
+        </Text>
+        <Text
+          color="white"
+          variant="h6"
+          css={{ mt: "$2", "@md": { fontSize: "$sm" } }}
+        >
+          - Avoid interrupting
+        </Text>
+        <Text
+          color="white"
+          variant="h6"
+          css={{ mt: "$2", "@md": { fontSize: "$sm" } }}
+        >
+          - Use chat or hand-raising features
+        </Text>
+        <Text
+          color="white"
+          variant="h6"
+          css={{ mt: "$2", "@md": { fontSize: "$sm" } }}
+        >
+          - Respect others' opinions and perspectives
         </Text>
       </Flex>
     </Box>
