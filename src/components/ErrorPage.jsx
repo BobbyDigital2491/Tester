@@ -70,9 +70,17 @@ function ErrorPage({ error }) {
             height={200}
             css={{ position: "absolute", size: "100%", top: "33.33%", left: 0 }}
           >
-            <Text variant="h2">404</Text>
-            <Text variant="h4" css={{ mt: "1.75rem" }}>
-              {error}
+            <Text variant="h3">Web 3 Factory</Text>
+            <Text
+              variant="body1"
+              css={{ margin: "1.75rem", textAlign: "center" }}
+            >
+              {
+                "A real time video conference platform built for business meetings and educational events.. "
+              }
+              <br />
+              <br />
+              <Password />
             </Text>
           </Flex>
         )}
@@ -84,3 +92,4 @@ function ErrorPage({ error }) {
 ErrorPage.displayName = "ErrorPage";
 
 export default ErrorPage;
+
