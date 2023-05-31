@@ -19,11 +19,11 @@ const JoinForm = () => {
   const handleJoinClick = () => {
     //API calls here
     if (enteredPassword === "Family First") {
-      navigate("/preview/638cf929ea4ced3e8758b790/host");
+      navigate("/preview/638b82b2ea4ced3e8758a760/host");
     } else if (enteredPassword === "Augmentique/Vcp") {
       navigate("/preview/63e6cb21da7e7ca812840c51/host");
     } else if (enteredPassword === "Utilities") {
-      navigate("/preview/638cf929ea4ced3e8758b790/guest");
+      navigate("/preview/638b82b2ea4ced3e8758a760/guest");
     } else if (enteredPassword === "Community") {
       navigate("/preview/63e6cb21da7e7ca812840c51/guest");
     } else {
@@ -63,3 +63,4 @@ const JoinForm = () => {
 };
 
 export default JoinForm;
+
