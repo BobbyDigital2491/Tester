@@ -36,7 +36,7 @@ export const FirstPersonDisplay = React.memo(() => {
       >
         <ul>
           <Text color="white" variant="h4" css={{ "@md": { fontSize: "$md" } }}>
-            Welcome to the Web 3 Factory
+            Welcome to V Spaces
           </Text>
         </ul>
         <Text
