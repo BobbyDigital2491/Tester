@@ -38,7 +38,7 @@ function ErrorPage({ error }) {
               width={30}
               height={40}
             />
-            <Text variant="h3">Web 3 Factory</Text>
+            <Text variant="h3">V Spaces</Text>
             <Text
               variant="body1"
               css={{ margin: "1.75rem", textAlign: "center" }}
@@ -70,7 +70,7 @@ function ErrorPage({ error }) {
             height={200}
             css={{ position: "absolute", size: "100%", top: "33.33%", left: 0 }}
           >
-            <Text variant="h3">Web 3 Factory</Text>
+            <Text variant="h3">V Spaces</Text>
             <Text
               variant="body1"
               css={{ margin: "1.75rem", textAlign: "center" }}
