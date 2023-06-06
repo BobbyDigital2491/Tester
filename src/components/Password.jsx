@@ -18,13 +18,13 @@ const JoinForm = () => {
 
   const handleJoinClick = () => {
     //API calls here
-    if (enteredPassword === "Family First") {
+    if (enteredPassword === "Multi Millions") {
       navigate("/preview/638b82b2ea4ced3e8758a760/host");
-    } else if (enteredPassword === "God above all") {
+    } else if (enteredPassword === "Focus and Dedication") {
       navigate("/preview/63e6cb21da7e7ca812840c51/host");
-    } else if (enteredPassword === "Utilities") {
+    } else if (enteredPassword === "dapp365347") {
       navigate("/preview/638b82b2ea4ced3e8758a760/guest");
-    } else if (enteredPassword === "Ohana") {
+    } else if (enteredPassword === "80 Tabs") {
       navigate("/preview/63e6cb21da7e7ca812840c51/guest");
     } else {
       alert("Invalid password");
