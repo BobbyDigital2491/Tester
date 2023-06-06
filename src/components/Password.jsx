@@ -20,11 +20,11 @@ const JoinForm = () => {
     //API calls here
     if (enteredPassword === "Family First") {
       navigate("/preview/638b82b2ea4ced3e8758a760/host");
-    } else if (enteredPassword === "Augmentique/Vcp") {
+    } else if (enteredPassword === "God above all") {
       navigate("/preview/63e6cb21da7e7ca812840c51/host");
     } else if (enteredPassword === "Utilities") {
       navigate("/preview/638b82b2ea4ced3e8758a760/guest");
-    } else if (enteredPassword === "Community") {
+    } else if (enteredPassword === "Ohana") {
       navigate("/preview/63e6cb21da7e7ca812840c51/guest");
     } else {
       alert("Invalid password");
