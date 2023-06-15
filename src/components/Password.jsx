@@ -26,6 +26,10 @@ const JoinForm = () => {
       navigate("/preview/638b82b2ea4ced3e8758a760/guest");
     } else if (enteredPassword === "80 Tabs") {
       navigate("/preview/63e6cb21da7e7ca812840c51/guest");
+      } else if (enteredPassword === "The Most High") {
+      navigate("/preview/638cf929ea4ced3e8758b790/host");
+        } else if (enteredPassword === "Big Family") {
+      navigate("/preview/638cf929ea4ced3e8758b790/guest");
     } else {
       alert("Invalid password");
     }
