@@ -44,7 +44,7 @@ export const FirstPersonDisplay = React.memo(() => {
           variant="h6"
           css={{ mt: "$4", "@md": { fontSize: "$sm" } }}
         >
-          - Be proffessional
+          - Be professional
         </Text>
         <Text
           color="white"
