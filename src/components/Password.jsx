@@ -24,7 +24,7 @@ const JoinForm = () => {
       navigate("/preview/63e6cb21da7e7ca812840c51/host");
     } else if (enteredPassword === "dapp365347") {
       navigate("/preview/638b82b2ea4ced3e8758a760/guest");
-    } else if (enteredPassword === "80 Tabs") {
+    } else if (enteredPassword === "Less is more") {
       navigate("/preview/63e6cb21da7e7ca812840c51/guest");
       } else if (enteredPassword === "The Most High") {
       navigate("/preview/638cf929ea4ced3e8758b790/host");
