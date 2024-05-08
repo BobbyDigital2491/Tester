@@ -10,12 +10,12 @@ export function getRandomVirtualBackground() {
 
   const images = [
     "https://www.100ms.live/images/vb-1.jpeg",
-    "https://www.100ms.live/images/vb-2.jpg",
-    "https://www.100ms.live/images/vb-3.png",
-    "https://d2qi07yyjujoxr.cloudfront.net/webapp/vb/hms1.png",
-    "https://d2qi07yyjujoxr.cloudfront.net/webapp/vb/hms2.png",
-    "https://d2qi07yyjujoxr.cloudfront.net/webapp/vb/hms3.png",
-    "https://d2qi07yyjujoxr.cloudfront.net/webapp/vb/hms4.png",
+    "https://b3222384.smushcdn.com/3222384/wp-content/uploads/2020/07/Zoom-books-2.jpg?lossy=2&strip=1&webp=1",
+    "https://assets.techrepublic.com/uploads/2021/03/zoom-bookcase-background-2.jpg",
+    "https://resources.owllabs.com/hs-fs/hubfs/Zoom_BG7_Sudy-jpg.jpeg?width=887&name=Zoom_BG7_Sudy-jpg.jpeg",
+    "https://i.redd.it/more-virtual-backgrounds-sci-fi-themes-v0-2mgifpzhevxa1.jpg?width=1456&format=pjpg&auto=webp&s=b707620ec5b279c1dfd3abb3740bc02bce05812d",
+    "https://www.denofgeek.com/wp-content/uploads/2020/04/Marvel-Zoom.jpg",
+    "https://marketplace.canva.com/EAD29kruoSY/2/0/1600w/canva-outer-space-video-virtual-background-Lvz5N5ZWous.jpg",
   ].map(url => ({
     background: url,
     backgroundType: HMSVirtualBackgroundTypes.IMAGE,
