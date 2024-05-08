@@ -30,6 +30,10 @@ const JoinForm = () => {
       navigate("/preview/638cf929ea4ced3e8758b790/host");
         } else if (enteredPassword === "Big Family") {
       navigate("/preview/638cf929ea4ced3e8758b790/guest");
+       } else if (enteredPassword === "Carolina Blue 24") {
+      navigate("/preview/eah-epfg-xdn");
+        } else if (enteredPassword === "More or Less 24") {
+      navigate("/preview/nvn-ddyt-yft");
     } else {
       alert("Invalid password");
     }
